@@ -1,0 +1,31 @@
+.Footer {
+	grid-area: foot;
+	width: 100vw;
+	height: 86px;
+	background-color: #324755;
+	/* position: relative; */
+	/* position: fixed;
+	bottom: 0; */
+	padding: 0 15rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	color: #aaa;
+	/* z-index: 300; */
+}
+
+/* ********************************************************************
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+******************************************************************** */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.Footer {
+		width: 100vw;
+		height: 46px;
+		/* position: fixed;
+		bottom: 0;
+		z-index: 300; */
+	}
+}

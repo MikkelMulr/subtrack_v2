@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.Services {
+	background: #eee;
+	padding: 2rem;
+	height: 100%;
+	width: 100%;
+}
+
+.Services .Main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.Services-list {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	/* padding-left: 4rem; */
+}
+
+.Services-list-item {
+	width: 50rem;
+	height: 13rem;
+	padding: 1rem;
+	margin: 8px 16px;
+	background-color: #ccc;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.list-item-icon {
+	width: 30%;
+	height: 100%;
+	background-color: #aaa;
+}
+
+.list-item-details {
+	width: 50%;
+	height: 100%;
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.list-item-details p {
+	font-size: 1.25rem;
+}
+
+.list-item-btns {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 20%;
+	height: 100%;
+}
+
+.list-item-btn {
+	border: none;
+	outline: none;
+	color: #fff;
+	width: 100%;
+	padding: 1rem;
+	margin: 0.5rem;
+}
+
+.list-item-btn:hover {
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+.btn-green {
+	background-color: #3bd277;
+}
+
+.btn-red {
+	background-color: #d23b3b;
+}

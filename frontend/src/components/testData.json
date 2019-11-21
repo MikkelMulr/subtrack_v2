@@ -1,0 +1,33 @@
+{
+	"data": {
+		"services": [{
+				"name": "Netflix",
+				"price": 12.0
+			},
+			{
+				"name": "Spotify",
+				"price": 9.99
+			},
+			{
+				"name": "HBO",
+				"price": 15.99
+			},
+			{
+				"name": "Final Fantasy XIV",
+				"price": 10.99
+			},
+			{
+				"name": "Amazon Prime",
+				"price": 14.99
+			},
+			{
+				"name": "Audible",
+				"price": 13.99
+			},
+			{
+				"name": "Adobe",
+				"price": 24.99
+			}
+		]
+	}
+}

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="574" viewBox="0 0 456 574">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcfcfc;
+      }
+
+      .cls-2 {
+        fill: #3bd277;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 37px;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        font-family: Europa-Light, Europa;
+        font-weight: 300;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #324755;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #707070;
+        stroke-linecap: round;
+        opacity: 0.71;
+      }
+
+      .cls-6 {
+        font-size: 31px;
+      }
+
+      .cls-7 {
+        opacity: 0.2;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-8 {
+        filter: url(#Line_2);
+      }
+
+      .cls-9 {
+        filter: url(#Rectangle_6);
+      }
+    </style>
+    <filter id="Rectangle_6" x="0" y="0" width="456" height="574" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_2" x="48.5" y="198.5" width="360" height="19" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcfcfc"/>
+      <stop offset="1" stop-color="#7e7e7e"/>
+    </linearGradient>
+  </defs>
+  <g id="monthly_demo" data-name="monthly demo" transform="translate(-1027.5 -791.5)">
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 1027.5, 791.5)">
+      <path id="Rectangle_6-2" data-name="Rectangle 6" class="cls-1" d="M30,0H387a30,30,0,0,1,30,30V535a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V30A30,30,0,0,1,30,0Z" transform="translate(19.5 16.5)"/>
+    </g>
+    <path id="Rectangle_7" data-name="Rectangle 7" class="cls-2" d="M30,0H387a30,30,0,0,1,30,30V64a52,52,0,0,1-52,52H0a0,0,0,0,1,0,0V30A30,30,0,0,1,30,0Z" transform="translate(1047 808)"/>
+    <text id="Monthly_Total:_62.94" data-name="Monthly Total: $62.94" class="cls-3" transform="translate(1086 880)"><tspan x="0" y="0">Monthly Total: $62.94</tspan></text>
+    <text id="Service" class="cls-4" transform="translate(1109 972)"><tspan x="0" y="0">Service</tspan></text>
+    <text id="Amount" class="cls-4" transform="translate(1279 972)"><tspan x="0" y="0">Amount</tspan></text>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 1027.5, 791.5)">
+      <line id="Line_2-2" data-name="Line 2" class="cls-5" x2="341" transform="translate(58 205)"/>
+    </g>
+    <text id="Netflix" class="cls-6" transform="translate(1109 1048)"><tspan x="0" y="0">Netflix</tspan></text>
+    <text id="_15.99" data-name="$15.99" class="cls-6" transform="translate(1279 1048)"><tspan x="0" y="0">$15.99</tspan></text>
+    <text id="Spotify" class="cls-6" transform="translate(1109 1103)"><tspan x="0" y="0">Spotify</tspan></text>
+    <text id="_9.99" data-name="$9.99" class="cls-6" transform="translate(1279 1103)"><tspan x="0" y="0">$9.99</tspan></text>
+    <text id="FFXIV" class="cls-6" transform="translate(1108 1158)"><tspan x="0" y="0">FFXIV</tspan></text>
+    <text id="_12.99" data-name="$12.99" class="cls-6" transform="translate(1279 1158)"><tspan x="0" y="0">$12.99</tspan></text>
+    <text id="SHAVE" class="cls-6" transform="translate(1109 1213)"><tspan x="0" y="0">SHAVE</tspan></text>
+    <text id="_10.98" data-name="$10.98" class="cls-6" transform="translate(1279 1213)"><tspan x="0" y="0">$10.98</tspan></text>
+    <text id="SHAVE-2" data-name="SHAVE" class="cls-6" transform="translate(1109 1213)"><tspan x="0" y="0">SHAVE</tspan></text>
+    <text id="_12.99-2" data-name="$12.99" class="cls-6" transform="translate(1279 1268)"><tspan x="0" y="0">$12.99</tspan></text>
+    <text id="PRIME" class="cls-6" transform="translate(1109 1268)"><tspan x="0" y="0">PRIME</tspan></text>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-7" width="417" height="398" transform="translate(1047 945)"/>
+  </g>
+</svg>

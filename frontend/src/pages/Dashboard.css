@@ -1,0 +1,62 @@
+.Dashboard {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Dashboard .Main-container {
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+	/* overflow-y: hidden; */
+}
+
+.show-container {
+	width: 100%;
+	height: 100%;
+	/* padding-top: 4rem; */
+	overflow-y: scroll;
+	background-color: #eee;
+}
+
+.Dash-menu {
+	display: flex;
+	flex-direction: column;
+	padding-top: 2rem;
+	width: 35rem;
+	height: 100%;
+	background-color: #324755;
+	border-right: 12px solid #d97d54;
+}
+
+.Dash-menu-link {
+	width: 100%;
+	color: #fff;
+	font-size: 2rem;
+	padding: 1rem;
+
+	transition: all 1s ease;
+}
+
+.nav-bg-norm {
+	background: linear-gradient(to right, #324755 50%, #d97d54 50%);
+	background-size: 200% 100%;
+	background-position: left bottom;
+}
+
+.nav-bg-selected {
+	background: linear-gradient(to right, #d97d54 50%, #d97d54 50%);
+}
+
+.nav-icon {
+	padding-right: 1rem;
+}
+
+.Dash-menu-link:hover {
+	background-position: right bottom;
+	padding-left: 2rem;
+	cursor: pointer;
+}

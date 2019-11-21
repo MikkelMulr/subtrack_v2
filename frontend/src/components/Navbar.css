@@ -1,0 +1,86 @@
+.Navbar {
+	width: 100vw;
+	height: 76px;
+	background-color: #3bd277;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20rem;
+	color: #fff;
+	grid-area: nav;
+}
+
+.Nav-logo {
+	font-size: 2.5rem;
+}
+
+.Nav-links {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 1.75rem;
+}
+
+.Nav-links a,
+.Nav-logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* ********************************************************************
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+******************************************************************** */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.Navbar {
+		width: 100vw;
+		height: 56px;
+		padding: 0 1rem;
+		justify-content: flex-start;
+	}
+
+	.Nav-logo {
+		font-size: 2rem;
+		width: 30%;
+	}
+
+	.Nav-links {
+		width: 70%;
+		justify-content: space-around;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.Navbar {
+		padding: 0 18rem;
+		color: #fff;
+		justify-content: flex-end;
+	}
+
+	.Nav-logo {
+		font-size: 2.25rem;
+		width: 78%;
+		text-align: left;
+	}
+
+	.Nav-links {
+		width: 22%;
+		font-size: 1.75rem;
+	}
+}

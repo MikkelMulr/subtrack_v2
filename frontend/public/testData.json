@@ -1,0 +1,53 @@
+{
+	"data": {
+		"services": [{
+				"id": 0,
+				"name": "Netflix",
+				"price": 12.0
+			},
+			{
+				"id": 1,
+
+				"name": "Spotify",
+				"price": 9.99
+			},
+			{
+				"id": 2,
+
+				"name": "HBO",
+				"price": 15.99
+			},
+			{
+				"id": 3,
+
+				"name": "Final Fantasy XIV",
+				"price": 10.99
+			},
+			{
+				"id": 4,
+
+				"name": "Amazon Prime",
+				"price": 14.99
+			},
+			{
+				"id": 5,
+
+				"name": "Audible",
+				"price": 13.99
+			},
+			{
+				"id": 6,
+
+				"name": "Adobe",
+				"price": 24.99
+			}
+		],
+		"users": [{
+			"id": 0,
+			"name": "Klorgoth the Destroyer",
+			"email": "user@email.com",
+			"password": "1234",
+			"subs": [0, 1, 5]
+		}]
+	}
+}
