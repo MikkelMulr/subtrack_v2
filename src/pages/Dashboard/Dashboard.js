@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Subscriptions from '../components/Subscriptions';
-import MonthlyReport from '../components/MonthlyReport';
-import Services from '../components/Services';
-import Updates from '../components/Updates';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import Subscriptions from '../../components/Subscriptions/Subscriptions';
+import MonthlyReport from '../../components/MonthlyReport/MonthlyReport';
+import Services from '../../components/Services/Services';
+import Updates from '../../components/Updates/Updates';
 import Axios from 'axios';
 import './Dashboard.css';
 

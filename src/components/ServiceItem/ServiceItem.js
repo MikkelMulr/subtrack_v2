@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import '../Services/Services.css';
 
 const ServiceItem = ({ servName, servPrice }) => {
 	return (

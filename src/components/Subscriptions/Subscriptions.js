@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ServiceItem from './ServiceItem';
+import ServiceItem from '../ServiceItem/ServiceItem';
 import './Subscriptions.css';
 
 const Subscriptions = ({ dbData }) => {
@@ -44,7 +44,7 @@ const Subscriptions = ({ dbData }) => {
 			{Loading ? (
 				<div className='Services-list'>{subList}</div>
 			) : (
-					<img style={{ width: '260px', margin: '0 auto' }} src={require('../images/spinner.gif')} alt='spinner' />
+					<img style={{ width: '260px', margin: '0 auto' }} src={require('../../images/spinner.gif')} alt='spinner' />
 				)}
 		</div>
 	);

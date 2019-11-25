@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import ServiceItem from './ServiceItem';
+import ServiceItem from '../ServiceItem/ServiceItem';
 import './Services.css';
 
 const Services = ({ services }) => {
-	const [ serviceList, setServiceList ] = useState([
-		<img style={{ width: '260px', margin: '0 auto' }} src={require('../images/spinner.gif')} alt='spinner' key='00' />
+	const [serviceList, setServiceList] = useState([
+		<img style={{ width: '260px', margin: '0 auto' }} src={require('../../images/spinner.gif')} alt='spinner' key='00' />
 	]);
 
 	const getData = () => {
@@ -15,7 +15,7 @@ const Services = ({ services }) => {
 			setServiceList(updateServiceList);
 		} catch (error) {
 			console.log(error);
-			setServiceList([ <h2>{`Services not available :(`}</h2> ]);
+			setServiceList([<h2>{`Services not available :(`}</h2>]);
 		}
 	};
 

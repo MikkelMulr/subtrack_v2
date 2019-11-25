@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Home from './pages/Home.js';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard.js';
+import Home from './pages/Home/Home.js';
+import Login from './pages/Login/Login';
+import Dashboard from './pages/Dashboard/Dashboard.js';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
